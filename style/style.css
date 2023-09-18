@@ -1,0 +1,221 @@
+* {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: #ffb3d9;
+    border: 1px solid #ffb3d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+h2 {
+    background-color: rgb(121, 116, 116);
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+.inner_container {
+    /* background-color: pink; */
+    /* margin: 120px 180px; */
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.left_section {
+    /* flex-basis: 35%; */
+    padding: 20px;
+    background-color: #ff99cc;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+    width: 250px;
+    border-radius: 300px;
+    margin: auto;
+}
+
+#name {
+    /* margin-left: 90px; */
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(66, 51, 51);
+    /*  */
+}
+
+#job_role {
+    /* margin-left: 50px; */
+    color: rgb(66, 51, 51);
+    ;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* .profile {
+    margin-bottom: 20px;
+
+} */
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact img {
+    width: 35px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact span:hover {
+    font-size: 20px;
+    color: white;
+}
+
+.personal_skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.personal_skills div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .personal_skills progress {
+    margin-left: 35px;
+    gap: 60px;
+
+} */
+
+.professional_skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 10%; */
+}
+
+.professional_skills div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .professional_skills progress {
+    margin-left: 35px;
+    gap: 60px;
+
+} */
+.right_section {
+    /* flex-basis: 65%; */
+    padding: 20px 45px;
+    background-color: white;
+}
+
+
+.about_me {
+    line-height: 40px;
+
+}
+
+/* .education h2 {
+    margin-left: 20px;
+    width: 300px;
+}*/
+
+.education_img {
+    display: flex;
+    /* width: 35px; */
+}
+
+.education h2 {
+    margin-left: 10px;
+    height: 40px;
+    padding: 10px;
+}
+
+.education_text {
+    padding: 30px;
+    margin: 25px;
+}
+
+
+.description {
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.project_img {
+    display: flex;
+    /* width: 35px;
+    height: 60px; */
+}
+
+.project h2 {
+    margin-left: 10px;
+    height: 40px;
+    padding: 10px;
+    /* width: 300px; */
+}
+
+.project_text {
+    margin-left: 80px;
+    line-height: 35px;
+}
+
+.about_title,
+.education_title,
+.project_title {
+    background-color: white;
+    color: rgb(66, 51, 51);
+    font-size: 25px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* @media screen and (min-width:475px) {}
+
+@media screen and (min-width:640px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1024px) {}
+
+@media screen and (min-width:1280px) {}
+
+@media screen and (min-width: 1536px) {} */
